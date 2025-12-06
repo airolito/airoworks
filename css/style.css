@@ -1,0 +1,41 @@
+.background-gradient {
+    background-image: linear-gradient(to bottom, #19183a, #2A183B);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+}
+
+.navbar-bg-color{
+    background-color: #4b419f;
+    color: white;
+}
+
+.navi-link{
+    color: #ffffff;
+}
+
+.navi-link:hover{
+    color: #87d3e2;
+}
+
+.links-text{
+    font-style: normal;
+    font-size: large;
+    color: white;
+    text-decoration: none;
+}
+
+.profile-img{
+    max-width: 30%;
+    height: 30%;
+    margin-right: 5%;
+}
+
+.profile-text{
+    font-size: x-large;
+}
+
+.container-bg-color {
+    background-color: #708993;
+}
