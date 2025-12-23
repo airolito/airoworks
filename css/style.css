@@ -1,3 +1,5 @@
+
+/* GENERIC */
 .background-gradient {
     background-image: linear-gradient(to bottom, #19183a, #2A183B);
     background-repeat: no-repeat;
@@ -38,4 +40,29 @@
 
 .container-bg-color {
     background-color: #708993;
+}
+
+/* MODS PAGE */
+.card-websitemod {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;  
+}
+
+.card-body {
+    z-index: 20;
+}
+
+.zoom-img {
+    width: 320px fit-content;
+    height: 180px fit-content;
+    position: relative;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+    will-change: transform;
+}
+
+.card-websitemod:hover .zoom-img {
+    transform: scale(1.15);
+    z-index: 5;
 }
